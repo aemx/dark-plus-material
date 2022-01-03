@@ -217,7 +217,7 @@
     "tree.tableColumnsBorder": "#BDBDBD20",
     "widget.shadow": "#0000005C"
   },
-  "name": "Dark+ Material",
+  "name": "Dark+ Material Legacy",
   "tokenColors": [
     {
       "scope": "meta.embedded",

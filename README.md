@@ -1,6 +1,8 @@
-# Dark+ Material
+# Dark+ Material Legacy
 
-![Dark+ Material logo](https://i.imgur.com/dbU1a3i.png)
+*This theme is forked from **Dark+ Material Version v2.4.4**. You can find the current version [**here**](https://github.com/vangware/dark-plus-material).*
+
+![Dark+ Material Legacy logo](https://i.imgur.com/4yXZO0E.png)
 
 ## Reason behind this
 
@@ -14,29 +16,10 @@ When VSCode makes an update, I run a script that takes the code from the VSCode 
 VSCode update -> mapping (1 VSCode color => 1 Material color) -> Dark+ Material update.
 ```
 
-## Screenshots
-
-### JavaScript
-
-![JavaScript example](https://raw.githubusercontent.com/vangware/dark-plus-material/main/screenshots/javascript.png)
-
-### LESS
-
-![LESS example](https://raw.githubusercontent.com/vangware/dark-plus-material/main/screenshots/less.png)
-
-### TypeScript
-
-![TypeScript example](https://raw.githubusercontent.com/vangware/dark-plus-material/main/screenshots/typescript.png)
-
 ## Installing
 
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```bash
-ext install dark-plus-material
+ext install dark-plus-material-legacy
 ```
-
-## Recommended Plugins and settings
-
--   [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) (by [Philipp Kief](https://github.com/PKief)): Beautiful icon theme that looks awesome with this theme.
--   [FiraCode](https://github.com/tonsky/FiraCode) (by [Nikita Prokopov](https://github.com/tonsky)): The best code ligature font I found, used in the screenshots.

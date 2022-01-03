@@ -106,17 +106,17 @@ Promise.all([
 	.then(({ colors, tokenColors }) => ({
 		$schema: "vscode://schemas/color-theme",
 		colors,
-		name: "Dark+ Material",
+		name: "Dark+ Material Legacy",
 		tokenColors
 	}))
 	.then(theme =>
 		writeFileAsync(
-			`${__dirname}/../dark-plus-material.json`,
+			`${__dirname}/../-legacy.json`,
 			// eslint-disable-next-line no-null/no-null
 			JSON.stringify(theme, null, "  ")
 		)
 	)
-	.then(() => console.log("dark-plus-material.json done!"))
+	.then(() => console.log("dark-plus-material-legacy.json done!"))
 	.catch(error =>
-		console.error("Error with dark-plus-material.json update", error)
+		console.error("Error with dark-plus-material-legacy.json update", error)
 	);
